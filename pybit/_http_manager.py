@@ -21,14 +21,14 @@ except ImportError:
 HTTP_URL = "https://{SUBDOMAIN}.{DOMAIN}.com"
 SUBDOMAIN_TESTNET = "api-testnet"
 SUBDOMAIN_MAINNET = "api"
-DOMAIN_MAIN = "bybit"
+DOMAIN_MAIN = "bybitglobal"
 DOMAIN_ALT = "bytick"
 
 
 @dataclass
 class _V5HTTPManager:
     testnet: bool = field(default=False)
-    domain: str = field(default="bybit")
+    domain: str = field(default="bybitglobal")
     api_key: str = field(default=None)
     api_secret: str = field(default=None)
     logging_level: logging = field(default=logging.INFO)

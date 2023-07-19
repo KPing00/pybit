@@ -28,7 +28,7 @@ class _HTTPManager:
 
         # Set the endpoint.
         if endpoint is None:
-            self.endpoint = "https://api.bybit.com"
+            self.endpoint = "https://api.bybitglobal.com"
         else:
             self.endpoint = endpoint
 
@@ -570,7 +570,7 @@ class _V3HTTPManager:
 
         # Set the endpoint.
         if endpoint is None:
-            self.endpoint = "https://api.bybit.com"
+            self.endpoint = "https://api.bybitglobal.com"
         else:
             self.endpoint = endpoint
 

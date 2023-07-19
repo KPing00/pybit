@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 SUBDOMAIN_TESTNET = "stream-testnet"
 SUBDOMAIN_MAINNET = "stream"
-DOMAIN_MAIN = "bybit"
+DOMAIN_MAIN = "bybitglobal"
 DOMAIN_ALT = "bytick"
 
 USDC_PERPETUAL = "USDC Perp"
